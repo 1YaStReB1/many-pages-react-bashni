@@ -49,3 +49,31 @@
 .header__text p + p {
 	margin-top: 0.5em;
 }
+
+
+@media (max-width: 620px) {
+	/* Header  */
+
+	.header {
+		min-height: unset;
+	}
+
+	.header__title {
+		font-size: 30px;
+	}
+
+	.header__title strong {
+		font-size: 40px;
+	}
+}
+
+
+@media (max-width: 350px) {
+	.header__title {
+		font-size: 20px;
+	}
+
+	.header__title strong {
+		font-size: 30px;
+	}
+}

@@ -28,6 +28,8 @@
 	font-weight: 700;
 }
 
+
+
 .nav-list {
 	display: flex;
 	flex-wrap: wrap;
@@ -63,4 +65,13 @@
 	height: 2px;
 	width: 100%;
 	background-color: var(--accent);
+}
+
+@media (max-width: 520px) {
+	.logo{
+		display: none;
+	}
+
+	
+
 }
