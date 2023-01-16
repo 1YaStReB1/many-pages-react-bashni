@@ -35,13 +35,15 @@
 	flex-wrap: wrap;
 	row-gap: 10px;
 	align-items: center;
-	column-gap: 40px;
+	margin-right: 10px;
 	font-size: 16px;
 	font-weight: 500;
 	font-family: 'Poppins', sans-serif;
 }
 
 .nav-list__link {
+	
+	margin: 0 20px;
 	color: var(--nav-text);
 	transition: opacity 0.2s ease-in;
 }
