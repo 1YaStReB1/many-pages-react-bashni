@@ -16,8 +16,12 @@
 
 .social {
 	display: flex;
-	column-gap: 30px;
 	align-items: center;
+}
+
+.social__item{
+	
+	margin: 0 15px; 
 }
 
 .copyright {
@@ -48,5 +52,16 @@
 
 	.social__item {
 		width: 28px;
+		
+	margin: 0 5px; 
+	}
+}
+
+
+@media (max-width: 350px) {
+	.social__item {
+		width: 18px;
+		
+	margin: 0 3px; 
 	}
 }
